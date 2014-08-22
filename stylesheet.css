@@ -1,0 +1,528 @@
+body {
+	background-image:url(Images/nasty_fabric_light.jpg);
+}
+
+.content{
+	width:95%;
+	background-image:url(Images/escheresque_ste.darker.jpg);
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	border:4px solid #703030;
+	overflow:hidden;
+	text-align:center;
+}	
+/*
+img, embed, object, video {
+max-width:100%;
+}*/
+
+.main_content {
+	position:relative;
+	float:left;
+	width:65%;
+}
+
+.main_content_usage {
+	position:relative;
+	float:left;
+	width:50%;
+}
+
+.side_bar {
+	position:relative;
+	float:right;
+	width:35%;
+	height:1000px;
+	margin:0px;
+	padding:0px;
+}
+
+.side_bar_usage {
+	position:relative;
+	float:right;
+	width:20%;
+	height:1000px;
+	margin:0px;
+	padding:0px;
+}
+
+.product_wrapper {
+	overflow:hidden;
+	white-space:nowrap;
+	
+}
+
+.product{
+	display:inline-block;
+	width:30%;
+	margin:1%;
+}
+
+.product_pic{
+	max-width:100%;
+	height:auto;	
+}
+
+
+.buy_button {
+	position:relative;
+	white-space:nowrap;
+	background-color:#703030;
+	border-radius:5px;
+	width:80%;
+	height:40px;
+	margin:auto;
+	text-align:center;
+}
+
+.buy_button:hover {
+	background-color:#8d1d1e;
+}
+
+.button_text {
+	overflow:hidden;
+	text-align:center;
+	line-height:40px;
+}
+
+.product p {
+	color:#979696;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+}
+
+.product a {
+	text-decoration:none;
+}
+
+.news{
+position:relative;
+left:-20px;
+}
+
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	color:rgb(215, 214, 214);
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	color:rgb(215, 214, 214);
+}
+
+h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	color:rgb(215, 214, 214);
+}
+
+.city_state{
+	color:rgb(151, 150, 150);
+	font-size:0.9em;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+.p_grey{
+	color:rgb(151, 150, 150);
+	font-family:Arial, Helvetica, sans-serif;
+}
+.p_white{
+	color:rgb(215, 214, 214);
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.header_text_wrapper {
+	padding-left:2%;
+	padding-right:2%;
+}
+
+.header_text {
+	font-family:Stencil Std,impact;
+	color:#CCC;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	display:inline-block;
+	width:100%;
+	padding-bottom:15px;
+	font-size:1.8em;	
+}
+
+.vid {
+	width: 60%;
+	position:relative;
+	padding-left:2%;
+	padding-right:2%;
+	padding-bottom:2%;
+	float:left;	
+}
+
+#right_of_vid {
+	display:block;
+	width:28%;
+	height:300px;
+	float:right;
+	padding-top:3%;
+	padding-left:3%;
+	padding-right:5%;	
+}
+
+#right_of_vid_text {
+	font-family:Stencil Std,impact;
+	color:#979696;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	display:inline-block;
+	width:100%;
+	padding-bottom:15px;
+	font-size:1.1em;	
+}	
+
+#header {
+	position:relative;
+}
+
+.logo {
+	position:relative;
+	width:25%;
+	height:auto;	
+	top:40px;
+	right:-60px;
+}
+
+#slideshow{
+	position:relative;
+	width:50%;
+	float:right;
+	top:30px;
+}
+
+#slideshow > div{
+	position:absolute;
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	width:80%;
+}
+
+.menu {
+	width: 100%;
+	min-width:680px;
+	height: 58px;
+	background-color: #703030;
+	position:relative;
+	left:-70px;
+	background-color: #703030;
+	position:relative;
+	width:45%;
+	float:right;
+}
+
+.menu_ul{
+	position:relative;
+	left:-36px;
+}
+
+.menu_div {
+text-align:center;
+width:100%;
+height: 58px;
+line-height:58px;
+position:relative;
+top:-32px;
+}
+
+.menu_div:hover{
+background-color:#8d1d1e;
+}
+
+.menu_item {
+	display:inline-block;
+	text-align:center;
+	width: 16%;
+}
+
+.menu_item a{
+text-decoration: none;
+}
+	
+.footer {
+	height:75px;
+	width:98%;
+	position:relative;	
+	background-color:#703030;
+	margin-top: 5%;
+	margin: 0px auto;
+	padding-top: 200px;
+	bottom: 100px;
+	opacity: 0.5;
+	box-shadow:  8px 7px 5px rgba(50, 50, 50, 0.75);
+	text-align:center;	
+	padding:6px;
+
+}
+
+.footer_ul{
+	text-align:center;
+}
+
+.horizontal{
+	display:inline-block;
+	font-size:1.5em;
+	list-style-type:circle;
+	vertical-align:top;
+}
+
+.horizontal_small {
+	position:relative;
+	display:inline-block;
+	font-size:1.2em;
+	list-style-type:circle;
+	vertical-align:top;
+	top:-14px;
+}
+
+.footer div {
+	height:100px;
+	text-align:center;
+}
+
+.footer div p {
+	margin:0;
+	line-height:55px;
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+.formWrapper {
+	height:800px;
+	width:800px;
+	position:relative;
+	margin:0px auto;
+}
+
+ol {
+	list-style-type:none;
+}
+
+input {
+	display:inline-block;
+	position:relative;
+	top:1.5em;
+}
+
+label {
+	color:#CCC;
+}
+
+.labelName {
+	position:relative;
+	right:-50px;
+	z-index:100;		
+}
+
+.labelPhone {
+	position:relative;
+	right:-106px;	
+}
+
+.labelEmail {
+	position:relative;
+	top:15px;
+	right:85px;	
+}
+
+.email {
+	position:relative;
+	top:35px;
+	width:309px;
+	right:130px;
+}
+
+.labelComment {
+	position:relative;
+	top:-140px;
+	right:-55px;
+}
+.comment {
+	position:relative;
+	top:70px;
+	right:15px;
+	height:200px;
+	width:564px;
+}
+
+.labelUseBefore {
+	position:relative;
+	top:65px;
+	right:-50px;
+}
+
+.labelUseBeforeYes {
+	position:relative;
+	top:65px;
+	right:-60px;
+}
+
+.labelUseBeforeNo {
+	position:relative;
+	top:65px;
+	right:-70px;
+}
+
+#useBeforeYes {
+	position:relative;
+	top:65px;
+	right:-60px;
+}
+
+#useBeforeNo {
+	position:relative;
+	top:65px;
+	right:-70px;
+}
+
+.labelRecommend {
+	position:relative;
+	top:70px;
+	right:-50px;
+}
+
+.labelRecommendYes {
+	position:relative;
+	top:70px;
+	right:-60px;
+}
+
+.labelRecommendNo {
+	position:relative;
+	top:70px;
+	right:-70px;
+}
+
+#recommendYes {
+	position:relative;
+	top:70px;
+	right:-60px;
+}
+
+#recommendNo {
+	Position:relative;
+	top:70px;
+	right:-70px;
+}
+
+.submit {
+	position:relative;
+	top:80px;
+	right:-88px;
+}
+
+.asterisk {
+	color:red;
+	position:relative;
+	right:-5px;
+}
+
+/*Style for menu ui on Shops page*/
+#accordion {
+	position:relative;
+	float:left;
+	width:30%;
+	margin-left:50px;	
+	margin-bottom:120px;
+	margin-right:50px;
+}
+
+#preview_window {
+	position:relative;
+	float:right;
+	width:55%;
+	left: -50px;
+	margin:-10px;
+	padding:-10px;	
+	overflow:hidden;
+	
+}
+
+#map_border{
+	border:2px solid #703030;	
+	overflow:hidden;
+}
+	
+	
+#preview_map{
+	overflow:hidden;	
+}
+
+.span_store {
+	
+	color:#00F;
+	font-style:italic;
+}
+
+.store_link {
+	color:#00F;
+	font-style:italic;
+}
+
+a#store_page_email:link {
+	color:#09F;
+}
+
+#about_blurb{
+	margin-bottom:5%;
+	margin-left:5%;
+	margin-right:5%;
+	padding-bottom:5%;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+#tabs{
+	position:relative;
+	float:left;
+	width:90%;
+	margin-right:2%;
+	margin-left:2%;
+	margin-top:5%;
+	margin-bottom:150px;
+	padding-bottom:5%;	
+}
+
+#Product_Application {
+	text-align:left;
+}
+
+#prod_vid {
+	width:50%
+}
+
+#What_To_Look_For {
+text-align:left;
+}
+
+#what_to_look_for_pics {
+width:25%
+}
+
+#Traps{
+text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
