@@ -1,8 +1,7 @@
 $(document).ready(function(){
-   $("#accordion").accordion();   
-})
+   
+   $("#accordion").accordion(); 
 
-$(document).ready(function(){
 	$("#Tri-County_Farm").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){
 		$("#preview_map").html('<div id="loading_hider"><iframe width="976" height="676" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Tri-County+Farm+%26+Ranch+Supply&amp;aq=&amp;sll=32.483886,-99.745403&amp;sspn=0.330731,0.196381&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=36.249499,-91.589928&amp;spn=0.011698,0.020921&amp;z=16&amp;output=embed"></iframe></div>')
@@ -131,6 +130,16 @@ $(document).ready(function(){
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
 	})
+
+	$("#AJs_Auto").click(function(){
+		$("#preview_map").fadeTo(600, 0, function(){
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3389.8850858658866!2d-99.4241966!3d31.828122299999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865724cd9f8499ed%3A0x9bd000a18ef8b46f!2s400+S+Concho+St%2C+Coleman%2C+TX+76834!5e0!3m2!1sen!2sus!4v1409023515818" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')	
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})
+	})
+
 	$("#Lawrence_Farm").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe width="976" height="676" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lawrence+Farm+%26+Ranch+Supply+Cross+Plains+TX&amp;aq=&amp;sll=32.253078,-99.069734&amp;sspn=0.450038,0.891953&amp;ie=UTF8&amp;hq=Lawrence+Farm+%26+Ranch+Supply&amp;hnear=Cross+Plains,+Callahan,+Texas&amp;t=m&amp;ll=32.121219,-99.16234&amp;spn=0.011067,0.006605&amp;output=embed"></iframe></div>')
@@ -162,8 +171,7 @@ $(document).ready(function(){
 		$("#preview_map").fadeTo(1,1)
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
-	})
-	
+	})	
 		$("#Berend_Bros_Olney").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3332.331814292739!2d-98.7649933!3d33.3624023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f8fbf7d8944150b!2sBerend+Brothers+Inc!5e0!3m2!1sen!2sus!4v1395629842746" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
@@ -171,6 +179,15 @@ $(document).ready(function(){
 		$("#preview_map").fadeTo(1,1)
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
+	})
+
+	$("#AJs_Merkel").click(function(){
+		$("#preview_map").fadeTo(600, 0, function(){
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3365.8981449794246!2d-100.01142399999999!3d32.475415999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865664957266f3a1%3A0x3e15b2a3a2be4b99!2s518+Kent+St%2C+Merkel%2C+TX+79536!5e0!3m2!1sen!2sus!4v1409023457661" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})
 	})
 	
 	$("#Automotive_Plus").click(function(){	
@@ -205,6 +222,16 @@ $(document).ready(function(){
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
 	})	
+
+	$("#CC_Auto").click(function(){
+		$("#preview_map").fadeTo(600, 0, function(){
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3366.66965422499!2d-99.871081!3d32.454775999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865689b07d599c0f%3A0xb7096a715d6422bb!2s301+Scott+St%2C+Tye%2C+TX+79563!5e0!3m2!1sen!2sus!4v1409023415655" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})	
+	})
+
 	$("#Throckmorton_AG").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe width="976" height="676" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Throckmorton+AG+Products+Inc&amp;aq=&amp;sll=32.483886,-99.745403&amp;sspn=0.330731,0.196381&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=33.17849,-99.178755&amp;spn=0.012141,0.020921&amp;z=16&amp;output=embed"></iframe></div>')
@@ -228,8 +255,21 @@ $(document).ready(function(){
 		$("#preview_map").fadeTo(1,1)
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
-	})	
+	})		
 	
-})
 
+
+function positionMap() {	
+	$(window).on('scrollstop', function(){
+		var scrolltop = $(window).scrollTop();
+		if ( scrolltop > 300 ) {
+			$('#preview_window').animate({'top' : scrolltop-300+'px' })					
+		}	else {
+			$('#preview_window').animate({'top' : '0px' })
+		}	
+	})		
+}
+
+positionMap();
+})
 
