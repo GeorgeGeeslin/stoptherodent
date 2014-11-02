@@ -17,7 +17,15 @@ $(document).ready(function(){
 		$("#preview_map").fadeTo(1,1)
 		$("#loading_hider").fadeTo(1000, 1)
 		})			
-	})	
+	})
+	$("#Lithia_Medford").click(function(){	
+		$("#preview_map").fadeTo(600, 0, function(){
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2949.383050123953!2d-122.87440500000001!3d42.33435600000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cf7a33f151778f%3A0x54bfdbc018f63dfb!2sLithia+Volkswagen+of+Medford!5e0!3m2!1sen!2sus!4v1414959984583" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})			
+	})
 	$("#Eastern_Arkansas").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){
 		$("#preview_map").html('<div id="loading_hider"><iframe width="976" height="676" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Eastern+Arkansas+Industrial+Tractor+1520+W+Broadway+Forrest+City,+AR&amp;hl=en&amp;sll=35.001436,-90.800174&amp;sspn=0.027244,0.055747&amp;hq=Eastern+Arkansas+Industrial+Tractor+1520+W+Broadway&amp;hnear=Forrest+City,+St+Francis,+Arkansas&amp;t=m&amp;ie=UTF8&amp;ll=35.001436,-90.800174&amp;spn=0.014765,0.022748&amp;output=embed"></iframe></div>')
@@ -171,7 +179,15 @@ $(document).ready(function(){
 		$("#preview_map").fadeTo(1,1)
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
-	})	
+	})
+	$("#Lone_Star_Kawasaki").click(function(){	
+		$("#preview_map").fadeTo(600, 0, function(){	
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3477.822680882312!2d-99.15391500000001!3d29.346192!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c2704d7d56fff%3A0xa88771644cd26d29!2sLone+Star+Kawasaki!5e0!3m2!1sen!2sus!4v1414959205148" width="979" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})		
+	})
 		$("#Berend_Bros_Olney").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3332.331814292739!2d-98.7649933!3d33.3624023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f8fbf7d8944150b!2sBerend+Brothers+Inc!5e0!3m2!1sen!2sus!4v1395629842746" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
@@ -180,7 +196,6 @@ $(document).ready(function(){
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
 	})
-
 	$("#AJs_Merkel").click(function(){
 		$("#preview_map").fadeTo(600, 0, function(){
 		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3365.8981449794246!2d-100.01142399999999!3d32.475415999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865664957266f3a1%3A0x3e15b2a3a2be4b99!2s518+Kent+St%2C+Merkel%2C+TX+79536!5e0!3m2!1sen!2sus!4v1409023457661" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
@@ -188,8 +203,7 @@ $(document).ready(function(){
 		$("#preview_map").fadeTo(1,1)
 		$("#loading_hider").fadeTo(1000, 1)
 		})
-	})
-	
+	})	
 	$("#Automotive_Plus").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe width="976" height="676" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Automotive+Plus,+230+W+Dallas+St,+Munday,+TX&amp;hl=en&amp;sll=32.60797,-97.322759&amp;sspn=0.112068,0.222988&amp;oq=Automotive+Plus+230+W+Dallas+St&amp;hq=Automotive+Plus,&amp;hnear=W+Dallas+St,+Munday,+Knox,+Texas+76371&amp;t=m&amp;ie=UTF8&amp;ll=33.446114,-99.628786&amp;spn=0.006295,0.006295&amp;output=embed"></iframe></div>')
