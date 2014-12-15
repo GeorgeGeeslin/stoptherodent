@@ -220,6 +220,14 @@ $(document).ready(function(){
 		$("#loading_hider").fadeTo(2500, 1)
 		})		
 	})
+		$("#Rotan_Mercantile").click(function(){	
+		$("#preview_map").fadeTo(600, 0, function(){	
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.789213185719!2d-100.46560139999995!3d32.85083229999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8655f0465d20b0a5%3A0x45e90eee3d7ae5a5!2s101+W+Forrest+St%2C+Rotan%2C+TX+79546!5e0!3m2!1sen!2sus!4v1418613833729" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(2500, 1)
+		})		
+	})
 	$("#Ben_Wilson").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe width="976" height="676" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Ben+Wilson+Supply,+1507+25th+Street,+Snyder,+TX&amp;hl=en&amp;sll=32.74423,-100.381604&amp;sspn=0.006994,0.013937&amp;oq=Ben+Wilson+Supply+1507+25th+St&amp;hq=Ben+Wilson+Supply,&amp;hnear=1507+25th+St,+Snyder,+Scurry,+Texas&amp;t=m&amp;ie=UTF8&amp;ll=32.717209,-100.914456&amp;spn=0.006295,0.006295&amp;output=embed"></iframe></div>')
@@ -230,13 +238,20 @@ $(document).ready(function(){
 	})
 	$("#Snyder_Farm").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3348.169463514851!2d-99.80293300000001!3d32.946535000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8654315b66f8cfcb%3A0x95e1c83522380080!2sStamford+Tire+%26+Appliance!5e0!3m2!1sen!2sus!4v1418613430266" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})		
+	})
+		$("#Stamford_Tire").click(function(){	
+		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe width="976" height="676" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Snyder+Farm+%26+Ranch+Supply,+37th+Street,+Snyder,+TX&amp;hl=en&amp;sll=32.70448,-100.905234&amp;sspn=0.006997,0.013937&amp;oq=Snyder+Farm+%26+Ranch+Supply,+&amp;hq=Snyder+Farm+%26+Ranch+Supply,&amp;hnear=37th+St,+Snyder,+Texas+79549&amp;t=m&amp;ie=UTF8&amp;ll=32.70448,-100.905234&amp;spn=0.006295,0.050811&amp;output=embed"></iframe></div>')
 		$("#loading_hider").css({opacity:'0'})
 		$("#preview_map").fadeTo(1,1)
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
-	})	
-
+	})
 	$("#CC_Auto").click(function(){
 		$("#preview_map").fadeTo(600, 0, function(){
 		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3366.66965422499!2d-99.871081!3d32.454775999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865689b07d599c0f%3A0xb7096a715d6422bb!2s301+Scott+St%2C+Tye%2C+TX+79563!5e0!3m2!1sen!2sus!4v1409023415655" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
