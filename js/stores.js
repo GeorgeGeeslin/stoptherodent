@@ -284,7 +284,16 @@ $(document).ready(function(){
 		$("#preview_map").fadeTo(1,1)
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
-	})		
+	})
+
+	$("#General_Store").click(function(){	
+		$("#preview_map").fadeTo(600, 0, function(){	
+		$("#preview_map").html('<div id="loading_hider"><<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3296.4607016725695!2d-99.73238599999999!3d34.287802000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ab2ffac4d03fe9%3A0x4e475367b923665c!2sJ+%26+M+Feeds!5e0!3m2!1sen!2sus!4v1422756639891" width="979" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})		
+	})				
 	
 
 
