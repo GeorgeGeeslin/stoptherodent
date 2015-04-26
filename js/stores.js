@@ -220,7 +220,7 @@ $(document).ready(function(){
 		$("#loading_hider").fadeTo(2500, 1)
 		})		
 	})
-		$("#Rotan_Mercantile").click(function(){	
+	$("#Rotan_Mercantile").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.789213185719!2d-100.46560139999995!3d32.85083229999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8655f0465d20b0a5%3A0x45e90eee3d7ae5a5!2s101+W+Forrest+St%2C+Rotan%2C+TX+79546!5e0!3m2!1sen!2sus!4v1418613833729" width="976" height="676" frameborder="0" style="border:0"></iframe></div>')
 		$("#loading_hider").css({opacity:'0'})
@@ -244,7 +244,7 @@ $(document).ready(function(){
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
 	})
-		$("#Stamford_Tire").click(function(){	
+	$("#Stamford_Tire").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe width="976" height="676" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Snyder+Farm+%26+Ranch+Supply,+37th+Street,+Snyder,+TX&amp;hl=en&amp;sll=32.70448,-100.905234&amp;sspn=0.006997,0.013937&amp;oq=Snyder+Farm+%26+Ranch+Supply,+&amp;hq=Snyder+Farm+%26+Ranch+Supply,&amp;hnear=37th+St,+Snyder,+Texas+79549&amp;t=m&amp;ie=UTF8&amp;ll=32.70448,-100.905234&amp;spn=0.006295,0.050811&amp;output=embed"></iframe></div>')
 		$("#loading_hider").css({opacity:'0'})
@@ -260,7 +260,6 @@ $(document).ready(function(){
 		$("#loading_hider").fadeTo(1000, 1)
 		})	
 	})
-
 	$("#Throckmorton_AG").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
 		$("#preview_map").html('<div id="loading_hider"><iframe width="976" height="676" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Throckmorton+AG+Products+Inc&amp;aq=&amp;sll=32.483886,-99.745403&amp;sspn=0.330731,0.196381&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=33.17849,-99.178755&amp;spn=0.012141,0.020921&amp;z=16&amp;output=embed"></iframe></div>')
@@ -285,15 +284,47 @@ $(document).ready(function(){
 		$("#loading_hider").fadeTo(1000, 1)
 		})		
 	})
-
 	$("#General_Store").click(function(){	
 		$("#preview_map").fadeTo(600, 0, function(){	
-		$("#preview_map").html('<div id="loading_hider"><<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3296.4607016725695!2d-99.73238599999999!3d34.287802000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ab2ffac4d03fe9%3A0x4e475367b923665c!2sJ+%26+M+Feeds!5e0!3m2!1sen!2sus!4v1422756639891" width="979" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3296.4607016725695!2d-99.73238599999999!3d34.287802000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ab2ffac4d03fe9%3A0x4e475367b923665c!2sJ+%26+M+Feeds!5e0!3m2!1sen!2sus!4v1422756639891" width="979" height="676" frameborder="0" style="border:0"></iframe></div>')
 		$("#loading_hider").css({opacity:'0'})
 		$("#preview_map").fadeTo(1,1)
 		$("#loading_hider").fadeTo(1000, 1)
-		})		
-	})				
+		})
+	})
+	$("#Chuys_Speed_Shop").click(function(){	
+		$("#preview_map").fadeTo(600, 0, function(){	
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3350.3556081928773!2d-105.95980600000001!3d32.88876500000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e05085dbcb48d3%3A0x8f2ff87f1bd11898!2sKwik+Lube!5e0!3m2!1sen!2sus!4v1426822703153" width="979" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})
+	})
+	$("#Westren_Auto").click(function(){	
+		$("#preview_map").fadeTo(600, 0, function(){	
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.3528260124067!2d-105.67891!3d33.335731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e1d1faf4ef4377%3A0x63e8d27f99d620a3!2sNAPA+Auto+Parts+Western+Auto!5e0!3m2!1sen!2sus!4v1430019933798" width="979" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})
+	})
+	$("#Roswell_Livestock").click(function(){	
+		$("#preview_map").fadeTo(600, 0, function(){	
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3331.114725267705!2d-104.50836000000001!3d33.394171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e26f30030a5235%3A0x4abad94891e972a3!2sRoswell+Livestock+Farm+Sply+T+V!5e0!3m2!1sen!2sus!4v1426823323738" width="979" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})
+	})
+	$("#jj_farm_supply").click(function(){	
+		$("#preview_map").fadeTo(600, 0, function(){	
+		$("#preview_map").html('<div id="loading_hider"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3338.9646540853946!2d-102.83062600000001!3d33.188798!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fd00ece55291ad%3A0x6be051dba764b42!2sFarm+Service+Agency!5e0!3m2!1sen!2sus!4v1426823384865" width="979" height="676" frameborder="0" style="border:0"></iframe></div>')
+		$("#loading_hider").css({opacity:'0'})
+		$("#preview_map").fadeTo(1,1)
+		$("#loading_hider").fadeTo(1000, 1)
+		})
+	})
+				
 	
 
 
